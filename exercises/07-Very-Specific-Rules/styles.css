@@ -4,6 +4,17 @@
 You CANNOT UPDATE anything from here on,
 only add lines of code on top of this lines
 **/
+body ul li {
+	color: red;
+}
+
+ol li:nth-child(2) {
+	background-color: green;
+}
+
+tr:nth-child(odd) {
+	background-color: yellow;
+}
 
 body {
 	color: blue;
